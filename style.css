@@ -1,0 +1,146 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+html {
+  font-size: 16px;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  background: #ffffff;
+  font-family: "Pretendard", sans-serif;
+  word-break: keep-all;
+}
+
+
+a, a:link, a:visited {
+  color: #17e200;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #000000;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 5rem;
+  font-weight: 900;
+  color: #17e200;
+  margin: 0;
+  text-align: center;
+}
+
+.figure { 
+  width: 100%; 
+  margin: 0 auto; 
+  text-align: center; 
+}
+
+.figure img { 
+  max-width: 100%;
+}
+
+figcaption {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 0.8em;
+  font-weight:100;
+  text-align: center;
+}
+
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main h1 {
+  position: absolute;
+  bottom: 1.5rem;
+}
+
+.contents {
+  max-width: 980px;
+  margin: 10vh auto;
+  padding: 0 1rem;
+}
+
+.contents p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.7em;
+  padding-bottom: 0;
+}
+
+.contents p span {
+  font-family: "Noto Sans KR", sans-serif
+  font-size: 0.5em;
+  font-weight: 500;
+}
+
+.column {
+  flex: 1;
+  overflow-y: scroll;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.column:nth-child(1) {
+  background-color: #ffffff;
+}
+.column:nth-child(2) {
+  background-color: #ffffff;
+}
+.column:nth-child(3) {
+  background-color: #000000;
+}
+
+q {
+  font-size: 4em;
+  color: rgb(255, 255, 255);
+  font-family:"Montserrat", sans-serif;
+  font-weight: 900;
+  text-align:center;
+
+
+}
+
+button {
+  background-color: rgb(0, 0, 0);
+  letter-spacing: 0px;
+  border-radius: 10px;
+  transition-duration: 1s;
+  align-items: center;
+}
+
+button:hover {
+  background-color: rgb(0, 255, 4);
+  letter-spacing: 8px;
+  border-radius: 50px;
+  align-items: center;
+}
